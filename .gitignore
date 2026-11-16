@@ -1,0 +1,19 @@
+# 构建产物
+dist/
+release/7z.exe
+release/7z.dll
+
+# 测试数据
+testdata/
+
+# 系统垃圾
+CON
+NUL
+AUX
+PRN
+*.log
+Thumbs.db
+desktop.ini
+
+# 安装包只放 Release，不进仓库
+release/
